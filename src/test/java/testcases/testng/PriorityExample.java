@@ -13,7 +13,8 @@ public class PriorityExample {
     // We Can Assign Same Priority then according to Alphabet
     @Test(priority = 2)
     public void testcase_A() {
-        System.out.println("Test Case A");
+
+        System.out.println("Test Case B");
     }
 
     @Test(priority = 1)
