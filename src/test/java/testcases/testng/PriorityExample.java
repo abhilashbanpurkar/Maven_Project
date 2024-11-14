@@ -27,9 +27,5 @@ public class PriorityExample {
         System.out.println("Test Case P");
     }
 
-    // We Can Print letter it will take Askey value
-    @Test(priority = 3)
-    public void testcase_a() {
-        System.out.println("Test Case a");
-    }
+
 }
