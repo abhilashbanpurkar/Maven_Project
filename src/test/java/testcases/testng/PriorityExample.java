@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class PriorityExample {
 
     // Print in According to Priority Order by Number Assigned to From -ve to +Ve
-    @Test (priority = 2,enabled = false)
+    @Test (priority = 2,enabled = true)
     public void testcase_E() {
         System.out.println("Test Case E");
     }
@@ -28,7 +28,7 @@ public class PriorityExample {
     }
 
     // We Can Print letter it will take Askey value
-    @Test(priority = 4)
+    @Test(priority = 3)
     public void testcase_a() {
         System.out.println("Test Case a");
     }
